@@ -64,7 +64,8 @@ function amPm() {
     return new Date().toLocaleTimeString();
 }
 
-console.log(amPm());
+// console.log(amPm());
+
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 function differencInMinute(date1,date2) {
@@ -72,7 +73,7 @@ function differencInMinute(date1,date2) {
     return Math.floor(differenceInMilliSecend / (1000 * 60));
 };
 
-console.log(differencInMinute(date2,date3));
+// console.log(differencInMinute(date2,date3));
 
 
  
